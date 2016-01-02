@@ -13,7 +13,7 @@ body {
 }
 
 .text-primary {
-	color: @brand-primary;
+    color: @green-darkest;
 }
 
 p {
@@ -34,14 +34,14 @@ a.active {
 }
 
 a {
-	color: @brand-primary;
+	color: @green-darkest;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-	color: darken(@brand-primary, 10%);
+	color: darken(@green-darkest, 10%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,19 +58,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-darkest-gray {
-	background-color: @gray-darkest;
+	background-color: @green-lighter;
 }
 
 // Restyled Primary Buttons
 
 .btn-primary {
-	.button-variant(white; @brand-primary; @brand-primary);
+	.button-variant(white; @green-darkest; @green-darkest);
 	.heading-font;
 	font-weight: 700;
 }
 
 .btn-xl {
-	.button-variant(white; @brand-primary; @brand-primary);
+	.button-variant(white; @green-darkest; @green-darkest);
 	.heading-font;
 	font-weight: 700;
 	border-radius: 3px;
@@ -81,30 +81,30 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 .navbar-default {
-	background-color: @gray-darkest;
+	background-color: @green-lighter;
 	border-color: transparent;
 	.navbar-brand {
-		color: @brand-primary;
-		.script-font;
+		color: white;
+		.heading-font;
         &:hover,
         &:focus,
         &:active,
         &.active {
-        	color: darken(@brand-primary, 10%);
+        	color: darken(@green-darkest, 10%);
         }
 	}
 	.navbar-collapse {
 		border-color: fade(white, 2%);
 	}
 	.navbar-toggle {
-		background-color: @brand-primary;
-		border-color: @brand-primary;
+		background-color: @green-darkest;
+		border-color: @green-darkest;
 		.icon-bar {
 			background-color: white;
 		}
 		&:hover,
 		&:focus {
-			background-color: @brand-primary;
+			background-color: @green-darkest;
 		}
 	}
     .nav {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     			color: white;
     			&:hover,
     			&:focus {
-    				color: @brand-primary;
+    				color: @green-darkest;
     				outline: none;
     			}
     		}
@@ -125,12 +125,12 @@ h1, h2, h3, h4, h5, h6 {
 	.navbar-nav>.active>a {
 		border-radius: 0;
 		color: white;
-		background-color: @brand-primary;
+		background-color: @green-darkest;
 	}
 	.navbar-nav>.active>a:hover,
 	.navbar-nav>.active>a:focus {
 		color: white;
-		background-color: darken(@brand-primary, 10%);
+		background-color: darken(@green-darkest, 10%);
 	}
 }
 
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
     }
     .navbar-default.navbar-shrink {
-    	background-color: @gray-darkest;
+    	background-color: @green-lighter;
         padding: 10px 0;
 		.navbar-brand {
 	        font-size: 1.5em;
@@ -256,7 +256,7 @@ section {
             max-width: 400px;
             margin: 0 auto;
             .portfolio-hover {
-                background: fade(@brand-primary, 90%);
+                background: fade(@green-darkest, 90%);
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -371,7 +371,7 @@ section {
 	        height: 80px;
             position: absolute;
             z-index: 100;
-            background-color: @brand-primary;
+            background-color: @green-darkest;
             color: white;
             border-radius: 100%;
             border: 7px solid #f1f1f1;
@@ -530,7 +530,7 @@ aside.clients {
 // Contact Section
 
 section#contact {
-	background-color: @gray-darkest;
+	background-color: @green-lighter;
 	background-image: url('../img/map-image.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -551,7 +551,7 @@ section#contact {
 		}
 	}
 	.form-control:focus {
-		border-color: @brand-primary;
+		border-color: @green-darkest;
 		box-shadow: none;
 	}
 	::-webkit-input-placeholder {
@@ -604,7 +604,7 @@ ul.social-buttons {
 	li {
 		a {
 			display: block;
-			background-color: @gray-darkest;
+			background-color: @green-lighter;
 			height: 40px;
 			width: 40px;
 			border-radius: 100%;
@@ -618,7 +618,7 @@ ul.social-buttons {
 	        &:hover,
 	        &:focus,
 	        &:active {
-				background-color: @brand-primary;
+				background-color: @green-darkest;
 	        }
 		}
 	}
@@ -677,7 +677,7 @@ ul.social-buttons {
             height:75px;
             width:1px;
             margin-left:35px;
-            background-color:@gray-darkest;
+            background-color:@green-lighter;
             transform: rotate(45deg);
             -ms-transform: rotate(45deg);
             /* IE 9 */
@@ -687,7 +687,7 @@ ul.social-buttons {
             .rl {
                 height:75px;
                 width:1px;
-                background-color:@gray-darkest;
+                background-color:@green-lighter;
                 transform: rotate(90deg);
                 -ms-transform: rotate(90deg);
                 /* IE 9 */
@@ -707,12 +707,12 @@ ul.social-buttons {
 
 ::-moz-selection {
     text-shadow: none;
-    background: @brand-primary;
+    background: @green-darkest;
 }
 
 ::selection {
     text-shadow: none;
-    background: @brand-primary;
+    background: @green-darkest;
 }
 
 img::selection {
@@ -724,5 +724,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: @brand-primary;
+    webkit-tap-highlight-color: @green-darkest;
 }
