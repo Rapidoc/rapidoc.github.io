@@ -201,7 +201,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-default .navbar-brand {
-    font-size: 2em;
+    font-size: 4em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -218,10 +218,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header2.jpg');
   background-repeat: none;
   background-attachment: scroll;
-  background-position: center center;
+  padding-bottom: 600px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -249,7 +249,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 400px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -276,12 +276,10 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-family: 'Cabin', sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
 }
 @media (min-width: 768px) {
   section {
@@ -290,6 +288,12 @@ section h3.section-subheading {
 }
 .service-heading {
   margin: 15px 0;
+  text-transform: none;
+}
+.what-text {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
   text-transform: none;
 }
 #portfolio .portfolio-item {
@@ -344,7 +348,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -662,7 +666,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-style: italic;
   font-size: 16px;
 }
