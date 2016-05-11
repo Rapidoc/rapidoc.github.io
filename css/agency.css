@@ -218,10 +218,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header2.jpg');
+  background-image: url('../img/header5.jpg');
   background-repeat: none;
   background-attachment: scroll;
-  padding-bottom: 600px;
+  padding-bottom: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
