@@ -269,7 +269,8 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding-top: 75px;
+  padding-bottom: 35px;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -285,11 +286,11 @@ section h3.section-subheading {
 section div.what-heading {
   margin-bottom: 75px;
 }
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
-}
+/*@media(min-width:768px) {
+	section {
+		padding: 150px 0;
+	}
+}*/
 .service-heading {
   margin: 15px 0;
   text-transform: none;
