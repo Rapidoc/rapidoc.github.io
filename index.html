@@ -98,6 +98,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
         <ol class="carousel-indicators">
             <li data-target="#docCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#docCarousel" data-slide-to="1"></li>
+            <li data-target="#docCarousel" data-slide-to="2"></li>
         </ol>
 
         <!-- Wrapper for Slides -->
@@ -118,6 +119,14 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                     </div>
                 </div>  
             </header>
+            <header class="item" style="background-image:url('img/cover-psico.jpg');">
+                <div class="container">
+                    <div class="intro-text">
+                        <div class="intro-lead-in">Sua saúde bem cuidada, no conforto de sua casa.</div>
+                        <a href="#services" class="page-scroll btn btn-xl">Saiba como!</a>
+                    </div>
+                </div>  
+            </header>            
         </div>
     </div>
 
@@ -127,7 +136,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             <div class="row what-heading">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">O que é?</h2>
-                    <h3 class="section-subheading text-muted">Rapidoc é o meio mais rápido e cômodo para ser atendido ou agendar uma consulta médica, psicológica, fisioterapêutica ou nutricional.</h3>
+                    <h3 class="section-subheading text-muted">O aplicativo Rapidoc é o meio mais rápido e cômodo para ser atendido ou agendar uma consulta médica, psicológica, fisioterapêutica ou nutricional.</h3>
                     <h3 class="section-subheading text-muted">Sem transtornos, incômodos e atrasos. Nosso profissional vai até você, onde você solicitar!</h3>
                 </div>
             </div>
@@ -207,55 +216,58 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Fale conosco!</h2>
-            <div class="row" style="margin-bottom: 15px;">
-                <div class="col-md-4">
-            
-                    <i class="fa fa-skype fa-2x fa-inverse"><span style="font-family: 'Cabin', sans-serif; padding-left: 10px;">rapidocbrasil</span></i>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <i class="fa fa-whatsapp fa-2x fa-inverse"><span style="font-family: 'Cabin', sans-serif; padding-left: 10px;">(11)                                 95889-9566</span></i>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fa fa-envelope-o fa-2x fa-inverse"><span style="font-family: 'Cabin', sans-serif; padding-left:                                         10px;">contato@rapidocbrasil.com.br</span></i>
+                        </div>
                     </div>
-                <div class="col-md-4">
-                    <i class="fa fa-whatsapp fa-2x fa-inverse"><span style="font-family: 'Cabin', sans-serif; padding-left: 10px;">(11) 95889-9566</span></i>
+                    <div class="row" style="margin-bottom: 15px;">
+                        <div class="col-md-6 text-center section-heading">
+                            <span style="font-family: 'Cabin', sans-serif; padding-left: 10px; font-size: 1em;">Atendimento somente via chat no Whatsapp</span>
+                        </div>
+
+                    </div>                    
                 </div>
-                <div class="col-md-4">
-                    <i class="fa fa-envelope-o fa-2x fa-inverse"><span style="font-family: 'Cabin', sans-serif; padding-left: 10px;">contato@rapidocbrasil.com.br</span></i>
-                </div>
-                                
-                 
-                </div>
-            </div>
+            </div>            
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contact" novalidate action="https://getsimpleform.com/messages?form_api_token=d4631f065306ab9dd6f696bc06a673fc" method="post" enctype="multipart/form-data">
-                        <input type="hidden" name="origem" value="[Formulário de Contato]"
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="nome-contato" placeholder="Seu Nome *" id="name" required data-validation-required-message="Por favor, digite seu nome.">
-                                    <p class="help-block text-danger"></p>
+                        <form name="sentMessage" id="contact" novalidate action="https://getsimpleform.com/messages?                                                            form_api_token=d4631f065306ab9dd6f696bc06a673fc" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="origem" value="[Formulário de Contato]"/>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="nome-contato" placeholder="Seu Nome *" id="name" required                                            data-validation-required-message="Por favor, digite seu nome.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email-contato" placeholder="Seu Email *" id="email"                                                 required data-validation-required-message="Por favor, digite seu Email.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" name="telefone-contato" placeholder="Seu telefone *" id="phone"                                             required data-validation-required-message="Por favor, digite seu telefone.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email-contato" placeholder="Seu Email *" id="email" required data-validation-required-message="Por favor, digite seu Email.">
-                                    <p class="help-block text-danger"></p>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="mensagem-contato" placeholder="Sua mensagem *" id="message" required                                         data-validation-required-message="Por favor, digite sua mensagem."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" name="telefone-contato" placeholder="Seu telefone *" id="phone" required data-validation-required-message="Por favor, digite seu telefone.">
-                                    <p class="help-block text-danger"></p>
+                                <div class="clearfix">
                                 </div>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success">
+                                    </div>
+                                    <button type="submit" class="btn btn-xl">Enviar</button>
+                                </div>                            
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="mensagem-contato" placeholder="Sua mensagem *" id="message" required data-validation-required-message="Por favor, digite sua mensagem."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+                        </form>                    
+                </div>                
+            </div>            
         </div>
     </section>
 
