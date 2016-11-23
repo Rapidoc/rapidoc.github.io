@@ -104,6 +104,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+  text-shadow: 1px 1px 1px #333;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -175,6 +176,7 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
   letter-spacing: 1px;
   color: white;
+  text-shadow: 1px 1px 1px #333;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -237,6 +239,7 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+  text-shadow: 1px 1px 1px #333;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -258,6 +261,7 @@ header .intro-text .intro-heading {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
+    text-shadow: 1px 1px 1px #333;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -276,6 +280,12 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+}
+section h2.section-heading.text-shadow-darker {
+  text-shadow: 1px 1px 1px #333;
+}
+section h2.section-heading.text-shadow-lighter {
+  text-shadow: 1px 1px 1px #d3d3d3;
 }
 section h3.section-subheading {
   font-size: 22px;
